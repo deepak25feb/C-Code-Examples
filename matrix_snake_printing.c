@@ -6,7 +6,7 @@
 //                   {7, 8, 9}}		(2,0)	(2,1)
 // Output : Row-wise: 1 2 3 4 5 6 7 8 9
 //          Col-wise : 1 4 7 2 5 8 3 6 9
-//			snake-wise : 1 4 7 8 5 2 3 6 9
+//	    snake-wise : 1 4 7 8 5 2 3 6 9
 
 
 #define ROW 3
@@ -16,12 +16,12 @@ int main()
 {
 	int matrix[ROW][COLUMN] = 
 	{
-		{1, 2, 3}, 
+	{1, 2, 3}, 
         {4, 5, 6}, 
         {7, 8, 9}
 
 	};
-	int check = 1 ;
+	int check = 1 ; // Snake behavior
 	for (int col = 0; col < COLUMN; ++col)
 	{
 		if(check){
